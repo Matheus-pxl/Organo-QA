@@ -5,6 +5,7 @@ class Cadastro {
         cy.visit('http://localhost:4200/')
         cy.get('[data-test="register"]').click();
     }
+    //
     preencherFormulario() {
         cy.get('input[data-test="email"]').type('kkkkkk@kkkkk')
         cy.get('input[data-test="fullName"]').type('Llll LLLo')
@@ -17,3 +18,5 @@ class Cadastro {
 }
 
 export default new Cadastro();
+
+//
