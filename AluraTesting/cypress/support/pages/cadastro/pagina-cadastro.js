@@ -15,6 +15,9 @@ class Cadastro {
     submitCadastro() {
         cy.get('[data-test="btnRegister"]').click();
     }
+    procurarIcone() {
+
+    }
 }
 
 export default new Cadastro();
